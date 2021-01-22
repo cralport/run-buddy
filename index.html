@@ -31,8 +31,37 @@
         </nav>
         </header>
         <!--hero/jumbotron-->
-        <section>
-
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will shcedule a consult</p>
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                   
+                    <lable for="email">Enter eamil address</lable>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                   
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <lable for="trainer=yes">Yes</lable>
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <lable for="trainer-no">No</lable>
+                    </p>
+                    <p>
+                        <label for="checkbox">
+                            I acknowledge that I am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name"age-confirm" id="checkbox"/>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
         </section>
         <!--"What We Do" section-->
         <section>
