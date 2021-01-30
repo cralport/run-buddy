@@ -29,7 +29,7 @@
 
 .secondary-content p {
     font-size: 16px;
-    line-height: 13.5;
+    line-height: 1.5;
     margin: 20px 0 20px 0;
 }
 
@@ -40,4 +40,10 @@
 .secondary-content li {
     color: #39ab62;
     margin: 10px 0 10px 0;
+}
+
+.nav {
+    display: flex;
+    flex: center;
+    justify-content: space-between;
 }
